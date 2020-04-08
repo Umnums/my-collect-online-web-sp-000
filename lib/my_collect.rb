@@ -9,5 +9,6 @@ def my_collect(array)
   else
     "No block given"
   end
+  newarray
 end
 
