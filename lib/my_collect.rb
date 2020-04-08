@@ -1,6 +1,6 @@
 def my_collect(array)
-  if block_given? 
-    i = 0 
+  if block_given?
+    i = 0
     newarray = []
     while i < array.length
       newarray << yield array[i]
@@ -10,4 +10,3 @@ def my_collect(array)
     "No block given"
   end
 end
-
